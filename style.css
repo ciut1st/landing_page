@@ -55,7 +55,12 @@ p.text1 {
 button {
     background-color: #3882f6;
     border-color: #3882f6;
-    color: white
+    color: white;
+    border-radius: 20%;
+}
+.button1 {
+    width: 75px;
+    margin-top: 8px;
 }
 
 .subimg1 > img {
@@ -88,4 +93,53 @@ button {
 
 .img-container {
     align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+p.text3 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.content4 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 32px 16px;
+}
+
+.modal {
+    background-color: #3882f6;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.modal.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.button2 {
+    border-color: white;
+    height: 25px;
+}
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.footer > p {
+    color: white;
 }
