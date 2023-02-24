@@ -41,7 +41,7 @@ a {
     flex-direction: column;
 }
 
-p.text {
+p.text1 {
     color: white;
     font-size: 48px;
     font-weight: 800;
@@ -73,5 +73,19 @@ button {
     color: #1f2937;
     display: flex;
     justify-content: center;
+    padding: 24px;
+}
+.subimg2 {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding-bottom: 36px;
 }
 
+.img-container > img {
+    width: 200px;
+}
+
+.img-container {
+    align-items: center;
+}
